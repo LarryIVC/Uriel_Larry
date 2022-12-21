@@ -7,9 +7,41 @@
   </head>
 
   <body>
-    <p>Hello World!, we are software developers!</p>
+    <h1 id="title"> hola </h1>
+
+    <p id="description">Hello World!, we are software developers!</p>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <form action="#" id="survey-form">
+
+      <label for="name" id="name-label">Name</label>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="number" id="number-label">Number</label>
+      <input type="number" id="number" max="1000" min="100" placeholder="Enter your number" required>
+
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+
+      <input type="radio" name="user-recommendation" value="definitely" id="definitely">
+      <input type="radio" name="user-recommendation" value="Maybe" id="Maybe">
+      <input type="radio" name="user-recommendation" value="Not sure" id="Not sure">
+
+      <input type="checkbox" name="user-likes" value="like1" id="like1">
+      <input type="checkbox" name="user-likes" value="like2" id="like2">
+      <input type="checkbox" name="user-likes" value="like3" id="like3">
+
+      <textarea name="user-comments" id="comments" cols="30" rows="10"></textarea>
+
+      <input type="submit" id="submit" value="Submit">
+
+    </form>
 
     <!--
 
